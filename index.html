@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imgur</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+            <img id="logo" src="imgur-logo-2.png" />
+            <button class="postBtn">
+                <img src="add-icon.png"/>
+                <div>New Post</div>
+            </button>
+            <div id="searchBox">
+                <input type="text" placeholder="Images, #tags, @users oh my!" id="searchquery" />
+                <img src="search.png" />
+            </div>
+            <button class="addFreeBtn">Go Ad-Free</button>
+            <div id="iconsBox">
+                <img class="icons" src="save-icon.png" />
+                <img class="icons" src="chat-icon.png" />
+                <img class="icons" src="notification-icon.png" />
+                <img class="icons" src="avatar.png" />
+            </div>
+        </header>
+
+        <div id="dropDown"></div>
+
+        <div id="displayContainer"></div>
+
+        <div id="gifContainer">
+            <h3>MOST VIRAL</h3>
+            <div id="viralContainer"></div>
+            <div class="buttonBox">
+                <button id="prevBtn">Prev</button>
+                <button id="nextBtn">Next</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+<script src="index.js"></script>
